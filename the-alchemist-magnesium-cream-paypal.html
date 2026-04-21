@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Alchemist | Magnesium Cream</title>
+  <meta name="description" content="The Alchemist is a handmade, family-owned, Australian magnesium cream for recovery, rest, and a cleaner nightly ritual." />
+  <style>
+    :root {
+      --bg: #0f0d0c;
+      --card: #171311;
+      --text: #f2e7db;
+      --muted: #c0b1a4;
+      --line: #2f2722;
+      --accent: #d0a67a;
+      --accent2: #f0cfa8;
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+      --radius: 22px;
+      --max: 1120px;
+      font-family: Inter, system-ui, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(circle at top left, rgba(208,166,122,.12) 0, transparent 30%), radial-gradient(circle at bottom right, rgba(240,207,168,.08) 0, transparent 26%), var(--bg); color: var(--text); line-height: 1.6; }
+    .wrap { max-width: var(--max); margin: auto; padding: 24px; }
+    h1, h2, h3 { font-family: Georgia, serif; line-height: 1.05; margin: 0 0 12px; }
+    h1 { font-size: clamp(42px, 7vw, 80px); }
+    h2 { font-size: clamp(28px, 4vw, 44px); }
+    p { margin: 0 0 14px; color: var(--muted); font-size: 18px; }
+    .eyebrow { display: inline-block; padding: 8px 12px; border-radius: 999px; background: #efe3d6; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 18px; }
+    .nav, .hero, .grid, .cta, .footer { border: 1px solid var(--line); background: color-mix(in srgb, var(--card) 96%, transparent); box-shadow: var(--shadow); border-radius: var(--radius); }
+    .nav { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 18px 22px; margin-bottom: 22px; }
+    .nav a { color: var(--text); text-decoration: none; font-weight: 700; font-size: 14px; }
+    .btn { display: inline-block; background: var(--accent); color: white; text-decoration: none; padding: 14px 22px; border-radius: 999px; font-weight: 800; }
+    .btn.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+    .hero { padding: 28px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 24px; align-items: center; }
+    .hero .box { padding: 20px; background: #fff; border-radius: 18px; border: 1px solid var(--line); }
+    .img { width: 100%; border-radius: 18px; display: block; object-fit: cover; min-height: 320px; }
+    .section { margin-top: 22px; padding: 28px; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { padding: 18px; border: 1px solid var(--line); border-radius: 18px; background: #fff; }
+    .card h3 { font-family: Inter, system-ui, sans-serif; font-size: 18px; }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; }
+    .faq details { border-top: 1px solid var(--line); padding: 14px 0; }
+    .faq summary { cursor: pointer; font-weight: 800; }
+    .cta { text-align: center; padding: 34px; }
+    .footer { padding: 18px 22px; margin-top: 22px; color: var(--muted); font-size: 14px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    @media (max-width: 900px) { .hero, .split, .cards { grid-template-columns: 1fr; } .nav { flex-wrap: wrap; } .footer { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <strong>The Alchemist</strong>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center">
+        <a href="#story">Story</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn" href="https://www.paypal.com/ncp/payment/EC456KMGWY9BN">Buy now</a>
+      </div>
+    </header>
+    <section class="hero" id="top">
+      <div>
+        <span class="eyebrow">Magnesium Cream</span>
+        <h1>Luxury recovery for sore bodies, busy minds, and better nights.</h1>
+        <p>The Alchemist is a handmade, family-owned, Australian magnesium cream made with love for people who train hard, stay sore, and want a cleaner nightly ritual.</p>
+        <p>Created by a family that lifts, trains, and does martial arts, this cream was born from real recovery needs, not marketing fluff.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:18px">
+          <a class="btn" href="https://www.paypal.com/ncp/payment/EC456KMGWY9BN">Buy now</a>
+          <a class="btn secondary" href="#story">Read the story</a>
+        </div>
+      </div>
+      <div class="box">
+        <img class="img" src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/3b566f7c-e991-448e-b7e1-4a4f4efd426f.png" alt="Tall fit Black man rubbing cream onto his arm in a luxury wellness setting">
+      </div>
+    </section>
+    <section class="section split" id="story">
+      <div>
+        <span class="eyebrow">Why we made it</span>
+        <h2>Because painkillers and half‑hearted recovery were not the answer.</h2>
+        <p>Our family is always in the gym, on the mats, or training in some way, and that constant soreness pushed us to create something better.</p>
+        <p>The goal was simple: make a magnesium cream that feels luxurious, works into a nightly routine, and supports recovery without overcomplicating things.</p>
+      </div>
+      <div>
+        <h2 style="font-size:clamp(24px,3vw,34px)">Made for real life</h2>
+        <p>Use it after the shower and before bed. Massage it into the areas that feel tight, tired, or overworked, then let it become part of your reset routine.</p>
+        <p>It is fragrance-free and designed to feel unisex.</p>
+      </div>
+    </section>
+    <section class="section" id="benefits">
+      <span class="eyebrow">Why it matters</span>
+      <h2>More than just a cream.</h2>
+      <p>Magnesium is often talked about for mood, sleep, relaxation, stress support, and the way it helps the body feel more ready to recover. For people who train hard and run on empty, that matters.</p>
+      <p>When your body feels under-recovered, the whole week feels heavier. The Alchemist is designed to be a simple, premium nightly ritual that helps you slow down, switch off, and support the recovery window your routine has been missing.</p>
+      <div class="cards">
+        <div class="card"><h3>Better wind‑down</h3><p>Positioned for calmer evenings, deeper rest, and an easier transition into sleep.</p></div>
+        <div class="card"><h3>Mood + stress support</h3><p>Magnesium is widely associated with helping the body feel more settled under pressure.</p></div>
+        <div class="card"><h3>Performance protection</h3><p>When recovery is poor, training can feel wasted. This is about protecting the work you already do.</p></div>
+        <div class="card"><h3>All natural</h3><p>No chemicals, no fillers, no unnecessary additives. Handmade with a clean ingredient list you can trust.</p></div>
+      </div>
+    </section>
+    <section class="section split">
+      <div class="box">
+        <img class="img" src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c6836c11-728e-47fe-889f-526ef20066cf.png" alt="Fit white man rubbing cream onto his muscular back in a luxury wellness setting">
+      </div>
+      <div>
+        <span class="eyebrow">How to use</span>
+        <h2>After the shower. Before bed. Every night that your body needs a reset.</h2>
+        <p>Massage a small amount into the shoulders, neck, arms, legs, or anywhere that feels tight after training.</p>
+      </div>
+    </section>
+    <section class="section faq" id="faq">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions people will ask before they buy.</h2>
+      <details open><summary>Is it scented?</summary><p>No. It’s fragrance‑free, so it won’t add a scent or change the way you smell.</p></details>
+      <details><summary>Who is it for?</summary><p>People who want a mood lift, teens, bodybuilders, athletes, martial artists, gym‑goers, and anyone who trains or works out and does not recover fast enough.</p></details>
+      <details><summary>When should I use it?</summary><p>Massage it into your skin after your shower and before bed, as part of your nightly recovery routine.</p></details>
+    </section>
+    <section class="section cta">
+      <h2>Ready for a cleaner recovery ritual?</h2>
+      <a class="btn" href="https://www.paypal.com/ncp/payment/EC456KMGWY9BN">Buy now</a>
+    </section>
+    <footer class="footer">
+      <span>The Alchemist — handmade Australian magnesium cream</span>
+      <span>Solstice & Co PTY. LTD.</span>
+    </footer>
+  </div>
+</body>
+</html>
